@@ -1,0 +1,149 @@
+header, main{
+    margin: 35px;
+    margin-bottom: 0;
+}
+
+header img{
+    height: 70px;
+}
+
+h2{
+    font-size: 22pt;
+    line-height: 1.5;
+    font-family: calibri, sans-serif;
+    font-weight: bold;
+}
+
+p{
+    line-height: 1.5;
+    font-size: 16pt;
+    font-family: calibri, sans-serif;
+}
+
+.img img{
+    height: auto;
+    width: auto;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.none{
+    display:none;
+}
+
+.img{
+    display:flex;
+    flex-direction: column;
+
+}
+#last, footer{
+    background-color: rgb(222, 221, 221);
+}
+
+h3{
+    opacity: .7;
+    padding: 15px;
+    letter-spacing: 5px;
+    font-size: 16pt;
+    margin: 15px;
+    padding-top: 40px;
+}
+
+.follow{
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+i{
+    opacity: .7;
+    size: auto;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+form{
+    padding: 15px;
+}
+
+label{
+    opacity: .5;
+}
+
+input{
+    display: block;
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    opacity: .5;
+}
+
+div.sub input{
+    color:white;
+    font-weight: bold;
+    background-color:black ;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+footer{
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 0;
+    padding: 10px;
+}
+
+footer p{
+    opacity: .5;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    font-size: 12pt;
+    text-align: left;
+}
+
+@media only screen and (min-width: 600px){
+    .img{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 15px;
+    }
+
+    .none{
+        display: grid;
+    }
+
+    #last{
+     
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+
+    .follow2{
+        width: 40%;
+    }
+
+    .getin{
+        width: 60%;
+    }
+    div.sub input{
+    width: 30%;
+    margin-left: 15px;
+    }
+
+    /* .kartu label, input{
+        display: table;
+
+    } */
+}
+
+
