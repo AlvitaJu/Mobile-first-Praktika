@@ -12,12 +12,13 @@ h2{
     line-height: 1.5;
     font-family: calibri, sans-serif;
     font-weight: bold;
+    width: 350px;
 }
 
 p{
     line-height: 1.5;
     font-size: 16pt;
-    font-family: calibri, sans-serif;
+    font-family: calibri, sans-serif; 
 }
 
 .img img{
@@ -119,6 +120,11 @@ footer p{
 }
 
 @media only screen and (min-width: 600px){
+    h2{
+        font-size: 26pt;
+        width: 700px;
+    }
+
     .img{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
